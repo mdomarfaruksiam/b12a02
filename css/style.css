@@ -28,7 +28,17 @@ li{
 }
 
 body{
-    margin: 10px 40px;
+    margin: 30px 150px;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
 }
 .logo-div img {
     height: 82px;
@@ -55,4 +65,19 @@ nav{
 
 .nav-right{
     font-weight: 400;
+}
+
+header main{
+    display: flex;
+    align-items: center;
+}
+
+.main-left h1{
+    font-size: 65px;
+}
+.main-left h1 span{
+    color: #E95A08;
+}
+.main-left p{
+    font-size: 22px;
 }

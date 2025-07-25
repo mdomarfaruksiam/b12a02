@@ -293,11 +293,11 @@ header ul {
         width: 100%;
     }
 
-    header ul li{
+    header ul li {
         display: none;
     }
 
-    #cart{
+    #cart {
         display: flex;
     }
 
@@ -305,6 +305,12 @@ header ul {
     .section-1-right {
         margin: auto;
     }
+
+    .section-1 img {
+        width: 100%;
+        height: auto;
+    }
+
 
     .products .card {
         max-width: calc(50% - 20px);
